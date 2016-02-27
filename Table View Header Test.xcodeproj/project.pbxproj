@@ -12,6 +12,8 @@
 		DCA398681C30F6610074932D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA398661C30F6610074932D /* Main.storyboard */; };
 		DCA3986A1C30F6610074932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA398691C30F6610074932D /* Assets.xcassets */; };
 		DCA3986D1C30F6610074932D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA3986B1C30F6610074932D /* LaunchScreen.storyboard */; };
+		DCA398751C30FA8E0074932D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA398741C30FA8E0074932D /* CustomTableViewCell.swift */; };
+		DCA398771C3103210074932D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA398761C3103210074932D /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DCA398691C30F6610074932D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA3986C1C30F6610074932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA3986E1C30F6610074932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA398741C30FA8E0074932D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DCA398761C3103210074932D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				DCA398621C30F6610074932D /* AppDelegate.swift */,
 				DCA398641C30F6610074932D /* ViewController.swift */,
 				DCA398661C30F6610074932D /* Main.storyboard */,
+				DCA398741C30FA8E0074932D /* CustomTableViewCell.swift */,
 				DCA398691C30F6610074932D /* Assets.xcassets */,
 				DCA3986B1C30F6610074932D /* LaunchScreen.storyboard */,
 				DCA3986E1C30F6610074932D /* Info.plist */,
+				DCA398761C3103210074932D /* Item.swift */,
 			);
 			path = "Table View Header Test";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA398771C3103210074932D /* Item.swift in Sources */,
+				DCA398751C30FA8E0074932D /* CustomTableViewCell.swift in Sources */,
 				DCA398651C30F6610074932D /* ViewController.swift in Sources */,
 				DCA398631C30F6610074932D /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +294,7 @@
 				DCA398731C30F6610074932D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
